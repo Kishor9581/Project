@@ -66,7 +66,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"pipeline": {
-						"referenceName": "Load_to_sqlServer",
+						"referenceName": "Load_to_sqlDB",
 						"type": "PipelineReference"
 					},
 					"waitOnCompletion": true
