@@ -1,0 +1,104 @@
+{
+	"name": "AzureSqlTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SERIAL_NO",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PATEINT_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "AGE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "SEX",
+				"type": "varchar"
+			},
+			{
+				"name": "CASTE_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "HOSPITAL_DEPARTMENT",
+				"type": "varchar"
+			},
+			{
+				"name": "SURGERY_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "VILLAGE",
+				"type": "varchar"
+			},
+			{
+				"name": "DISTRICT_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "PRE_AUTH_DATE",
+				"type": "date"
+			},
+			{
+				"name": "PRE_AUTH_AMOUNT",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CLAIM_DATE",
+				"type": "date"
+			},
+			{
+				"name": "CLAIM_AMOUNT",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "HOSP_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "SURGERY_DATE",
+				"type": "date"
+			},
+			{
+				"name": "DISCHARGE_DATE",
+				"type": "date"
+			},
+			{
+				"name": "claim_MONTH",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "claim_day",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CLAIM",
+				"type": "varchar"
+			},
+			{
+				"name": "diff_claim_amount",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "final"
+		}
+	}
+}
