@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/suchcloudybatch16@gmail.com/Notebook1"
+					"notebookPath": "/Users/suchcloudybatch16@gmail.com/Raw_to_Silver"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
@@ -42,7 +42,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/suchcloudybatch16@gmail.com/Notebook2"
+					"notebookPath": "/Users/suchcloudybatch16@gmail.com/Silver_to_Gold"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
