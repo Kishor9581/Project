@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf16d"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://datalake16.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0626-104410-y2yz86ku"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "batch16.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "batch16"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "batch16d"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "ADMIN\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "batch16"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "batch16-admin"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/6373b4d7-32fc-4545-879e-96ca124c57a7/resourceGroups/batch16/providers/Microsoft.Storage/storageAccounts/datalake17"
+		}
+	}
+}
