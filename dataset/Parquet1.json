@@ -1,0 +1,101 @@
+{
+	"name": "Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "file",
+				"fileSystem": "gold"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "SERIAL_NO",
+				"type": "INT32"
+			},
+			{
+				"name": "PATEINT_NAME",
+				"type": "UTF8"
+			},
+			{
+				"name": "AGE",
+				"type": "INT32"
+			},
+			{
+				"name": "SEX",
+				"type": "UTF8"
+			},
+			{
+				"name": "CASTE_NAME",
+				"type": "UTF8"
+			},
+			{
+				"name": "HOSPITAL_DEPARTMENT",
+				"type": "UTF8"
+			},
+			{
+				"name": "SURGERY_NAME",
+				"type": "UTF8"
+			},
+			{
+				"name": "VILLAGE",
+				"type": "UTF8"
+			},
+			{
+				"name": "DISTRICT_NAME",
+				"type": "UTF8"
+			},
+			{
+				"name": "PRE_AUTH_DATE",
+				"type": "DATE"
+			},
+			{
+				"name": "PRE_AUTH_AMOUNT",
+				"type": "INT32"
+			},
+			{
+				"name": "CLAIM_DATE",
+				"type": "DATE"
+			},
+			{
+				"name": "CLAIM_AMOUNT",
+				"type": "INT32"
+			},
+			{
+				"name": "HOSP_NAME",
+				"type": "UTF8"
+			},
+			{
+				"name": "SURGERY_DATE",
+				"type": "DATE"
+			},
+			{
+				"name": "DISCHARGE_DATE",
+				"type": "DATE"
+			},
+			{
+				"name": "claim_MONTH",
+				"type": "INT32"
+			},
+			{
+				"name": "claim_day",
+				"type": "INT32"
+			},
+			{
+				"name": "CLAIM",
+				"type": "UTF8"
+			},
+			{
+				"name": "diff_claim_amount",
+				"type": "INT32"
+			}
+		]
+	}
+}
