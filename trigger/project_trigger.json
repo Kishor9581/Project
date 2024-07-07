@@ -1,0 +1,40 @@
+{
+	"name": "project_trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "datamigration",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Week",
+				"interval": 1,
+				"startTime": "2024-07-05T12:00:00",
+				"endTime": "2024-07-10T00:00:00",
+				"timeZone": "India Standard Time",
+				"schedule": {
+					"minutes": [
+						10
+					],
+					"hours": [
+						10
+					],
+					"weekDays": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					]
+				}
+			}
+		}
+	}
+}
