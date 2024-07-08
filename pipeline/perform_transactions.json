@@ -42,7 +42,13 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/suchcloudybatch16@gmail.com/Silver_to_Gold"
+					"notebookPath": "/Users/suchcloudybatch16@gmail.com/Silver_to_Gold",
+					"baseParameters": {
+						"District": {
+							"value": "@pipeline().parameters.District",
+							"type": "Expression"
+						}
+					}
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
@@ -73,6 +79,11 @@
 				}
 			}
 		],
+		"parameters": {
+			"District": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"lastPublishTime": "2024-07-04T11:09:14Z"
 	},

@@ -132,10 +132,21 @@
 						"referenceName": "perform_transactions",
 						"type": "PipelineReference"
 					},
-					"waitOnCompletion": true
+					"waitOnCompletion": true,
+					"parameters": {
+						"District": {
+							"value": "@pipeline().parameters.District",
+							"type": "Expression"
+						}
+					}
 				}
 			}
 		],
+		"parameters": {
+			"District": {
+				"type": "String"
+			}
+		},
 		"annotations": [],
 		"lastPublishTime": "2024-07-04T11:09:14Z"
 	},
