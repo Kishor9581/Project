@@ -17,8 +17,8 @@
 				"typeProperties": {
 					"notebookPath": "/Users/suchcloudybatch16@gmail.com/practice",
 					"baseParameters": {
-						"file_name": {
-							"value": "@pipeline().DataFactory",
+						"Country": {
+							"value": "@pipeline().parameters.Country",
 							"type": "Expression"
 						}
 					}
@@ -29,6 +29,12 @@
 				}
 			}
 		],
+		"parameters": {
+			"Country": {
+				"type": "string",
+				"defaultValue": "India"
+			}
+		},
 		"annotations": []
 	}
 }
